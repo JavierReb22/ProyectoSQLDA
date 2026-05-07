@@ -1,0 +1,41 @@
+INSERT INTO job_applied(
+    job_id,
+    application_sent_date,
+    custom_resume,
+    resume_file_name,
+    cover_letter_sent,
+    cover_letter_file_name,
+    status
+)
+VALUES (1,
+        '2025-05-02',
+        true,
+        'resume_name1.pdf',
+        true,
+        'coverletter_1.pdf',
+        'submitted'
+        ),
+        (2,
+        '2025-03-12',
+        true,
+        'resume_name2.pdf',
+        true,
+        'coverletter_2.pdf',
+        'submitted'
+        ),
+        (3,
+        '2025-10-17',
+        true,
+        'resume_name3.pdf',
+        false,
+        NULL,
+        'seen'
+        ),(4,
+        '2025-08-20',
+        false,
+        NULL,
+        true,
+        'coverletter_1.pdf',
+        'rejected'
+        );
+
